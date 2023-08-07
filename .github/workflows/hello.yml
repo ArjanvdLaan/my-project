@@ -1,11 +1,21 @@
-name: Print Hello
+name: Python application test with GitHub Actions
 
-on: workflow_dispatch
+on: [push]
+
 jobs:
-  print-hello:
-    # Specify on which operating system we want this workflow to run
-    runs-on: ubuntu-20.04
-    # The steps that will be excuted
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: Print
-        run: echo "Hello, world!"
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Test with pytest
+        run: |
+          pytest
