@@ -29,6 +29,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      with: 
+        lfs: true
+        token: ${{ secrets.ACCESS_TOKEN }}
     - name: Deploy to VPS
       env:
         PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
