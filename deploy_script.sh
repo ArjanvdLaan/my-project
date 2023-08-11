@@ -1,5 +1,5 @@
 #  Navigate to directory of app
-cd ~/flask-app
+cd ~/flask-app/main.py
 
 # Pull latest code
 # git pull origin master
