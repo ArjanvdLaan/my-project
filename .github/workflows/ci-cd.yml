@@ -40,5 +40,5 @@ jobs:
       run: |
         echo "$PRIVATE_KEY" > deploy_key
         chmod 600 deploy_key
-        scp -i deploy_key -o StrictHostKeyChecking=no /home/runner/work/my-project/my-project/flask-app/main.py $VPS_USERNAME@$VPS_IP:~/flask-app/main.py
-        ssh -i deploy_key -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP 'sh ~/deploy_script.sh'
+        scp -v -i deploy_key -o StrictHostKeyChecking=no /home/runner/work/my-project/my-project/flask-app/main.py $VPS_USERNAME@$VPS_IP:~/flask-app/main.py
+        ssh -v -i deploy_key -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP 'sh ~/deploy_script.sh'
