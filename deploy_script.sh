@@ -1,13 +1,20 @@
+# SSH into the VPS
+ssh -i "$DO_SSH_KEY" root@64.226.82.233 << EOF
+
+
 #  Navigate to directory of app
 cd ~/flask-app/main.py
 
 # Pull latest code
-# git pull origin master
+git pull origin master
 
+# activate virtual environment
 source venv/bin/activate
 
 # install new dependencies
 pip install -r requirements.txt
 
 # Restart Flask app with systemd
-systemctl restart  flask-app
+sudo systemctl restart  flask-app
+
+EOF

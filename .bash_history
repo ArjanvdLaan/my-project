@@ -480,3 +480,288 @@ chmod 600 /etc/ssh/
 ssh-add /etc/ssh/
 ssh-add /etc/ssh/ssh_host_rsa_key
 ssh -T git@github.com
+ls
+ls ~
+ls
+cd ~
+ls
+cd ..
+l
+cd etc
+ls
+cd ssh
+ls
+cd ..
+ls
+touch ssh/
+mkdir ssh/
+ls
+cd ssh
+ls
+cd ..
+ls
+cd home
+ls
+cd ..
+cd root
+ls
+cd ..
+ls
+rm -r ssh
+ls
+cd home
+ls
+mkdir ssh/
+ls
+cd ..
+ls
+clear
+ssh-keygen -t rsa -b 4096 -C "deploy_key" -f ~/.ssh/deploy_key
+ssh-keygen -t rsa -b 4096 -C "deploy key" -f /home/ssh/deploy_key
+ls
+cd home
+cd ssh
+ls
+cat /home/ssh/deploy_key.pub
+cat /home/ssh/deploy_key
+clear
+eval "$(ssh-agent -s)"
+ssh-add /home/ssh/deploy_key
+ssh -T git@github.com
+cd ..
+ls
+cd root
+ls
+nano deploy_script.sh
+nano deploy_script.sh.save
+rm deploy_script.sh.save
+ls
+cd flask-app
+ls
+cd ..
+ls
+nano flask-app
+cd flask-app
+ls
+cd main.py
+ls main.py
+nano main.py
+git add .
+cd ..
+ls
+git add .
+git init
+git add .
+git commit -m "Testing CI/CD pipeline"
+git push origin master
+git status
+git remote -v
+git remote add origin https://github.com/ArjanvdLaan/my-project
+git push origin master
+git pull origin master
+git pull origin master --allow-unrelated-histories
+git push origin master
+ls
+git add .
+git commit -m "Triggering Github Actions"
+git push
+git push --set-upstream origin master
+git pull origin master
+git push origin master
+ls
+cd flask-app
+ls
+nano main.py
+ls
+cd ..
+nano deploy_script.sh
+ls
+cd Flask-app
+ls
+cd flask-app
+ls
+cd ..
+cd flask-app
+ls
+cd ..
+cd Flask-app
+nano main.py
+cd ..
+ls
+git add .
+git commit -m "Triggering Github Actions"
+git push
+git push --set-upstream origin master
+ls
+cd ..
+cd root
+ls
+chmod +x ~/deploy_script.sh
+ls ..
+cd ssh
+ls
+cd ..
+ls
+cd ssh
+cd etc
+ls
+cd ssh
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+cd ..
+ls
+cd
+ls
+mkdir -p ~/.ssh
+ls
+cd 
+ls
+cd ..
+ls
+cd ..
+cd
+ls
+mkdir ssh/
+ls
+ssh-keygen -t rsa -b 4096
+ssh-keygen -t rsa -b 4096 -C "deploy_key" -f /ssh/deploy_key
+ssh-keygen -t rsa -b 4096 -C "deploy_key" -f ~/ssh/deploy_key
+cat ~/ssh/deploy_key.pub
+cat ~/.ssh/deploy_key
+ls
+cd ssh
+chmod 700 ~/ssh
+mkdir -p ~/.ssh
+cd ..
+ls
+chmod 700 ~/.ssh
+cd .ssh
+ls
+nano authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+cd ..
+ls
+cd ssh
+ls
+cd ..
+ls
+cd .ssh
+ls
+cd ..
+git push
+git push --set-upstream origin master
+git pull origin master
+git commit -m "Resolved merge conflicts"
+git add .
+git commit -m "Resolved merge conflicts"
+cd app
+ls
+cd ..
+git push
+cd .ssh
+ls
+cd authorized_keys
+nano authorized_keys
+git add .
+git commit
+git push
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+sudo nano /etc/ssh/sshd_config
+sudo cat /var/log/auth.log | grep sshd
+exit
+ls
+cd ssh
+ls
+cd ..
+cd .ssh
+ls
+nano deploy_key.pub
+nano authorized_keys
+git push
+cd ..
+ls
+cd flask-app
+cd main.py
+nano main.py
+git add .
+git commit
+git push
+cd ..
+git@github.com/ArjanvanderLaan/my-project
+ssh -vT git@github.com
+cat /root/.ssh/id_rsa.pub
+ls
+cd ssh
+ls
+cd ..
+rm -r ssh
+ls
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push
+git pull origin master
+git commit
+git push
+cd ..
+cd .ssh
+cd 
+cd
+ls
+cd .ssh
+cd ..
+ls
+cd .ssh
+mkdir -p /etc/my-keys
+cd /etc/my_keys
+ls
+cd etc
+cd my_keys
+ls
+cd my_keys
+mk dir ssh
+mkdir ssh/
+cd ssh
+ls
+mkdir my_keys
+ls
+rm -r my_keys
+ls
+cd ..
+mkdir my_keys
+ls
+rm -r my_keys
+ls
+rm -r my-keys
+ls
+mkdir my_keys
+ls
+cd my_keys
+ls
+ssh-keygen -t ed25519 -f github_deploy_key
+chmod 700 /etc/my_keys
+chmod 600 /etc/my_keys/github_deploy_key
+chmod 644 /etc/my_keys/github_deploy_key.pub
+nano github_deploy_key.pub
+nano github_deploy_key
+nano ~/.ssh/config
+cd ..
+cd
+cd .ssh
+mkdir .ssh/config
+mkdir .ssh/
+ls
+cd .ssh
+ls
+touch config
+ls
+nano config
+git clone git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
+exit
