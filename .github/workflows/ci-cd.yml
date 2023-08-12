@@ -40,5 +40,5 @@ jobs:
 
     - name: Deploy to VPS
       run: |
-        chmod +x ~/deploy_script.sh
-        ~/deploy_script.sh
+        chmod +x ./deploy_script.sh
+        ./deploy_script.sh
