@@ -765,3 +765,125 @@ ls
 nano config
 git clone git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
 exit
+ls
+cd .ssh
+ls
+cd ..
+ls
+cd .ssh
+cd
+ls
+cd .ssh
+touch ~/.ssh/authorized_keys
+ls
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+cd
+cd etc
+ls
+cd ..
+ls
+cd etc
+ls
+cd my_keys
+ls
+nano github_deploy_key.pub
+cd ..
+cd 
+ls
+cd .ssh
+ls
+nano authorized_keys
+sudo nano /etc/ssh/sshd_config
+cd
+ls
+ssh -i /etc/my_keys/github_deploy_key
+ssh -i /etc/my_keys/github_deploy_key git@github.com
+ls
+cd flask-app
+nano main.py
+git -add main.py
+ls
+git -add main.py
+git add main.py
+git commit -m "adjust Hello World!"
+git push
+cd ..
+ls
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/deploy_key
+cd .ssh
+ls
+nano deploy_key.pub
+nano authorized_keys
+nano deploy_key.pub
+cat ~/.ssh/deploy_key.pub
+cat ~/.ssh/deploy_key
+nano authorized_keys
+cd
+ls
+nano deploy_script.sh
+whoami
+nano deploy_script.sh
+chmod +x deploy.sh
+ls
+chmod +x deploy_script.sh
+git add .
+git commit
+git push
+git pull origin master
+git push
+ls
+git pull origin master
+nano deploy_script.sh
+git add .
+git commit
+git push
+ls
+cd flask-app
+nano main.py
+git add ~/flask-app/main.py
+git commit
+git push
+ls
+cd .ssh
+ls
+nano authorized_keys
+cat ~/.ssh/deploy_key
+cat ~/.ssh/deploy_key.pub
+cd 
+git pull origin master
+git push
+ls
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push
+cd
+ssh-keygen -t ed25519
+cd .ssh
+ls
+cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519
+cd
+git pull origin
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push
+cd
+git config --global user.name "Arjan"
+git config --global user.email laanvanderarjan@gmail.com
+exit
+cat ~/.ssh/id_ed25519
+cd .ssh
+ls
+nano authorized_keys
+cat ~/.ssh/id_ed25519.pub
+nano authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+exit
+ssh -i ~/.ssh/id_ed25519 git@github.com
+ssh -i ~/.ssh/id_ed25519 root@64.226.82.233
+exit
