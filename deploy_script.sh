@@ -1,5 +1,5 @@
 # SSH into the VPS
-ssh -T -i "/tmp/deploy_key" -o StrictHostKeyChecking=no root@64.226.82.233 << EOF
+ssh -vvv -T -i "/tmp/deploy_key" -o StrictHostKeyChecking=no root@64.226.82.233 << EOF
 
 # Navigate to directory of app
 cd ~/flask-app
