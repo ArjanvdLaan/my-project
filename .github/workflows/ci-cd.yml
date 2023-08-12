@@ -37,7 +37,7 @@ jobs:
         echo "${{ secrets.DO_SSH_PRIVATE_KEY }}" > /tmp/deploy_key
         chmod 600 /tmp/deploy_key
 
-    - name: Deploy to DigitalOcean
-      run: sh deploy_script.sh
-      env:
-        DO_SSH_KEY: ${{ secrets.DO_SSH_KEY }}
+    - name: Deploy to VPS
+      run: |
+        chmod +x ./deploy_script.sh
+        ./deploy_script.sh
