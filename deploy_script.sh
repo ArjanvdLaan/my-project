@@ -1,9 +1,8 @@
 # SSH into the VPS
-ssh -i "$DO_SSH_KEY" root@64.226.82.233 << EOF
+ssh -T -i "/tmp/deploy_key" -o StrictHostKeyChecking=no root@64.226.82.233 << EOF
 
-
-#  Navigate to directory of app
-cd ~/flask-app/main.py
+# Navigate to directory of app
+cd ~/flask-app
 
 # Pull latest code
 git pull origin master
@@ -15,6 +14,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Restart Flask app with systemd
-sudo systemctl restart  flask-app
+sudo systemctl restart flask-app
 
 EOF
+
