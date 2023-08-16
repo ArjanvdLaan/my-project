@@ -1,8 +1,11 @@
+# Exit script on any error
+set -e
+
 # SSH into the VPS
 ssh -vvv -T -i "~/.ssh/id_ed25519" -o StrictHostKeyChecking=no root@64.226.82.233 << EOF
 
 # Navigate to directory of app
-cd ~/flask-app
+cd ~/Flask-app
 
 # Pull latest code
 git pull origin master
