@@ -887,3 +887,147 @@ exit
 ssh -i ~/.ssh/id_ed25519 git@github.com
 ssh -i ~/.ssh/id_ed25519 root@64.226.82.233
 exit
+do-release-upgrade
+update
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push
+cd
+ls
+chmod +x ~/deploy_script.sh
+cd flaskl-app
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push
+cd
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+cd /etc/ssh/sshd_config
+nano /etc/ssh/sshd_config
+ssh -i /path/to/private_key root@64.226.82.233
+ssh -i ~/.ssh/id.ed25519
+cd .ssh
+ls
+ssh -i ~/.ssh/ed_25519
+cd
+ssh -i ~/.ssh/id_ed25519
+ssh -i ~/.ssh/id_ed25519 root@64.226.82.233
+ssh -i /tmp/deploy_key root@64.226.82.233
+ls
+cd /tmp
+ls
+cd
+ssh -i ~/.ssh/id_ed25519 root@64.226.82.233
+ls
+cat ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+sudo systemctl restart sshd
+nano /etc/ssh/sshd_config
+sudo nano /etc/ssh/sshd_config
+git add sshd_config
+cd /etc/ssh
+git add sshd_config
+git init
+git add sshd_config
+git commit
+git push
+sudo nano /etc/ssh/sshd_config
+systemctl restart sshd
+cd home/
+cd
+cd home
+cd
+cd ..
+cd home
+ls -ld
+cd
+ls -ld
+cd .ssh
+ls -ld
+ls
+ls -ld authorized_keys
+cd
+ls
+git pull origin master
+git push
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push
+cd
+chmod 700 /root/.ssh
+chmod ~/.ssh
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push
+cd
+sudo nano /etc/ssh/sshd_config
+systemctl restart sshd
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push
+ls -la /dev/tty
+echo 'PasswordAuthentication no' >> /etc/ssh/ssh_config
+cd
+cd .ssh/
+ls
+sudo nano /etc/ssh/sshd_config
+ssh -o StrictHostKeyChecking=no user@hostname
+ssh -o StrictHostKeyChecking=no host@64.226.82.233
+ssh -o StrictHostKeyChecking=no root@64.226.82.233
+ssh -o StrictHostKeyChecking=no -i /path/to/private_key root@64.226.82.233
+ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_ed25519 root@64.226.82.233
+tail -f /var/log/auth.log
+cd
+sudo systemctl restart sshd
+git pull origin master
+git commit
+git add main.py
+cd flask-app
+git add main.py
+git commit
+git add .
+git commit
+git commit -a
+git push
+ssh-agent -s
+ssh-add -l -E sha256
+eval 'ssh-agent -s'
+ssh-add
+eval $(ssh-agent)
+ssh-add -l -E sha256
+ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_ed25519
+ssh-add -l -E sha256
+cat ~/.ssh/id_ed25519.pub
+sudo git push
+nano main.py
+git add main.py
+git commit
+sudo git push
+cd
+ssh-keygen
+exit
+nano /etc/ssh/sshd_config
+exit
+nano /etc/ssh/sshd_config
+cd /home
+ls
+cd ..
+cd
+ls
+ls .ssh
+systemctl restart sshd
+tail -f /var/log/auth.log
+exit
