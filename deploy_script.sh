@@ -8,7 +8,7 @@ cd ~/flask-app
 git pull origin master
 
 # activate virtual environment
-source venv/bin/activate
+source ~/venv/bin/activate
 
 # install new dependencies
 pip install -r requirements.txt
