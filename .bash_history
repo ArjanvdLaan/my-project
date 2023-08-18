@@ -1031,3 +1031,198 @@ ls .ssh
 systemctl restart sshd
 tail -f /var/log/auth.log
 exit
+git add main.py
+cd flask-app
+nano main.py
+git add main.py
+git commit
+git push 
+cd ..
+ssh git@github.com git-lfs-authenticate ArjanvdLaan/my-project.git upload
+ls
+cd flask-app
+ls
+cd
+systemctl status flask-app
+cd /etc/systemd/system
+ls
+ls /lib/systemd/system/flask-app.service
+ls /etc/systemd/system/flask-app.service
+systemctl list-units --type=service
+journalctl -u farm.service
+cat /etc/systemd/system/farm.service
+ls /home/farm/
+cd
+ls
+cd flask-app
+ls
+cd
+cd Flask-app
+ls
+nano main.py
+git add main.py
+git commit
+fg
+git push
+git pull origin main
+git pull origin master
+git push
+which gunicorn
+cd /home/
+ls
+cd ssh
+ls
+sudo find / -name farm.service 2>/dev/null
+nano
+nano /etc/systemd/system/farm.service
+systemctl list-units --type=service
+cd
+apt update
+apt upgrade
+tail -n 5 /var/log/nginx/access.log
+pip install gunicorn --upgrade
+gunicorn main:app --bind 0.0.0.0
+gunicorn master:app --bind 0.0.0.0
+ls
+cd Flask-app
+ls
+cd
+ls flask-app
+rm -r flask-app
+ls
+cd Flask-app
+FLASK_APP=main:app flask run
+ls
+nano main.py
+gunicorn main:app
+sytemctl enable --now main
+curl 127.0.0.1:8000
+systemctl status Flask-app
+cd /etc/systemd/system
+ls
+touch flask-app.service
+ls
+nano flask-app.service
+sudo systemctl daemon-reload
+sudo systemctl start flask-app
+sudo systemctl enable flask-app
+sudo systemctl status flask-app
+sudo journalctl -u flask-app
+cd
+ls
+cd Flask-app
+ls
+nano main.py
+sudo nano /etc/systemd/system/flask-app.service
+sudo systemctl daemon-reload
+sudo systemctl restart flask-app
+sudo systemctl status flask-app
+ls -ld /root/flask-app
+ls -ld /root/Flask-app
+sudo nano /etc/systemd/system/flask-app.service
+sudo systemctl daemon-reload
+sudo systemctl restart Flask-app
+sudo systemctl status Flask-app
+sudo nano /etc/systemd/system/flask-app.service
+ls
+cd /root/
+ls
+cd Flask-app
+systemctl restart flask-app
+systemctl daemon-reload
+systemctl restart flask-app
+sudo systemctl status Flask-app
+sudo systemctl status flask-app
+sudo nano /etc/systemd/system/flask-app.service
+ls
+sudo systemctl daemon-reload
+sudo systemctl restart flask-app
+sudo systemctl status flask-app
+sudo systemctl status Flask-app
+sudo systemctl status flask-app
+source /root/venv/bin/activate
+which gunicorn
+sudo nano /etc/systemd/system/flask-app.service
+ls -l /root/venv/bin/gunicorn
+ls -l /usr/local/bin/gunicorn
+gunicorn -w 4 -b 0.0.0.0:5000 main:app
+sudo journalctl -u flask-app -e
+sudo systemctl daemon-reload 
+sudo systemctl restart flask-app
+cat /etc/systemd/system/flask-app.service
+nano /etc/systemd/system/flask-app.service
+sytemctl daemon-reload
+sudo systemctl daemon-reload
+sudo systemctl restart flask-app
+sudo systemctl status flask-app
+git status
+git add .bash_history
+git add bash_history
+git add ../.bash_history
+git add ../.cache/pip/http/c/9/e/6/6/c9e6616c1bb469d7a62f93d60a85a36ee402fbfbb439d00076b5ae67
+git add ../.wget-hsts
+git add ../app
+git add ../flask-app/.vscode/settings.json
+git add ../flask-app/main.py
+git commit
+git pull origin master
+git push origin master
+chmod 600 ~/.ssh/id_ed25519
+nano ~/.ssh/id_ed25519
+nano ~/.ssh/authorized_keys
+nano nano ~/.ssh/id_ed25519.pub
+nano ~/.ssh/id_ed25519.pub
+nano ~/.ssh/authorized_keys
+cd ..
+cd Flask-app
+cd /etc/systemd/system/
+ls
+ls -l ~/.ssh/id_ed25519
+ls -l ~/.ssh/id_ed25519.pub
+nano ~/.ssh/id_ed25519
+nano ~/.ssh/authorized_keys
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+cd Flask-app
+nano main.py
+git add main.py
+git commit
+git push origin master
+git pull origin master
+y
+git push origin master
+cd
+cd .ssh
+ls
+cd
+ls -l ~/.ssh
+chmod 700 ~/.ssh
+exit
+sudo systemctl status sshd
+sudo nano /etc/ssh/sshd_config
+cat ~/.ssh/authorized_keys
+sudo ufw status
+sudo journalctl -u ssh
+sudo systemctl restart sshd
+ssh localhost
+exit
+git pull origin master
+git push origin master
+cd Flask-app
+nano main.py
+git add main.py
+git commit
+git push origin master
+cd
+ls -lA ~/.ssh/
+ls -ld ~/.ssh/
+cd Flask-app
+sudo systemctl restart sshd
+nano main.py
+git add main.py
+git commit
+git push origin master
+cd
+eval $(ssh-agent -s)
+ssh-add -l -E sha256
+exit
